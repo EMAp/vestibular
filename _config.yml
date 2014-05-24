@@ -1,0 +1,6 @@
+safe: false
+pygments: true
+markdown: rdiscount
+redirects: false
+exclude: ["README.md"]
+baseurl: /copa-2014
