@@ -3,7 +3,15 @@ layout: content
 title: PageRank
 ---
 
-Para usar o PageRank montamos o grafo onde os vertices sao as selecoes e as arestas da selecao i para a selecao j sao as vitorias da selecao j sobre a i.  Os empates geram duas arestas neste grafico.  Os pesos das arestas levam em consideracao a antiguidade do jogo, a importancia (amistoso, jogo de campeonato, etc.) e tambem o numero de jogos que a selecao fez, para evitar que uma selecao consiga bom desempenho no ranking apenas por ter feito muitos jogos contra selecoes mais fracas.
+O PageRank é um algoritmo usado pelo Google atribuir importância as páginas da web usando apenas a informação dos links da web.  A idéia central deste algoritmo é a seguinte: a importância de certa página P depende de quantos links apontam para ela.  Mas só o número de links não é suficiente, a importância das páginas que apontam para A também é considerada.
 
-A utilizacao do teorema de Perron-Frobenius para ranking em esportes eh anterior ao PageRank do Google, como descrito no artigo de [Kleene](http://www-stat.wharton.upenn.edu/~steele/Courses/956/Ranking/RankingFootballSIAM93.pdf) de 1993.
+O algoritmo do PageRank está mais detalhado neste [verbete do Wikipedia](http://pt.wikipedia.org/wiki/PageRank)
+
+Embora usado para redes de páginas da internet o algoritmo pode ser usado em qualquer rede.
+
+Para usar o PageRank montamos a rede das seleções da FIFA onde os vértices são as seleções e as arestas da seleção i para a seleção j sao as vitórias da seleção j sobre a i.  Os empates geram duas arestas nesta rede.  Os pesos das arestas levam em consideração a antiguidade do jogo, a importância (amistoso, jogo de campeonato, etc.) e também o número de jogos que a seleção fez, para evitar que uma seleção consiga bom desempenho no ranking apenas por ter feito muitos jogos contra seleções mais fracas.
+
+O resultado do PageRank na rede das seleções pode ser visto [aqui](pagerank_selecoes.html)
+
+Cabe destacar que a utilização do teorema de Perron-Frobenius para ranking em esportes é bem anterior ao PageRank do Google, como descrito no artigo de [Kleene](http://www-stat.wharton.upenn.edu/~steele/Courses/956/Ranking/RankingFootballSIAM93.pdf) de 1993.
 
