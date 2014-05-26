@@ -1,100 +1,2446 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
 
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="Alexandre Rademaker and Moacyr Silva" />
-    <meta name="keywords" content="mathematical and statistical models for sports" />
-    <meta name="description" content="Sport in numbers"/>
-    <meta http-equiv="Cache-Control" CONTENT="max-age=3600, must-revalidate" />
-    <meta name="robots" content="all" />
-    <meta name="language" content="Portuguese"/>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="probabilidades_files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Pcezar</o:Author>
+  <o:LastAuthor>Pcezar</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>12</o:TotalTime>
+  <o:Created>2014-05-25T14:57:00Z</o:Created>
+  <o:LastSaved>2014-05-25T15:09:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>151</o:Words>
+  <o:Characters>820</o:Characters>
+  <o:Lines>6</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>970</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="probabilidades_files/themedata.thmx">
+<link rel=colorSchemeMapping href="probabilidades_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+  DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="267">
+  <w:LsdException Locked="false" Priority="0" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" Name="toc 9"/>
+  <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" Priority="10" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" Priority="11" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" Priority="22" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="59" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Table Grid"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" SemiHidden="false"
+   UnhideWhenUsed="false" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" SemiHidden="false"
+   UnhideWhenUsed="false" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:08.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:11.0in 8.5in;
+	mso-page-orientation:landscape;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:10.0pt;
+	mso-para-margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:08.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
 
-    <title> COPA 2014 - Chances das Selecoes </title>
-    <link href="http://fonts.googleapis.com/css?family=Average+Sans" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/position.css" type="text/css" media="screen,projection">
-    <link rel="stylesheet" href="css/layout.css" type="text/css" media="screen,projection">
-    <link rel="stylesheet" href="css/print.css" type="text/css" media="print">
-    <link rel="stylesheet" href="css/general.css" type="text/css">
-    <link rel="stylesheet" href="css/personal.css" type="text/css">
-    <!--[if lte IE 6]>
-	<link href="css/ieonly.css" rel="stylesheet" type="text/css" />
-	<style type="text/css">
-          #line
-          {      width:98% ;
-          }
-          .logoheader
-          {
-          height:200px;
-	  
-          }
-          #header ul.menu
-          {
-          display:block !important;
-          width:98.2% ;
-	  
-          }
-	</style>
-	<![endif]-->
-    <!--[if IE 7]>
-	<link href="css/ie7only.css" rel="stylesheet" type="text/css" />
-	<![endif]-->
-    <style type="text/css">
-      #main h2 {font-family: 'Average Sans', sans-serif;}
-      #nav h3 {font-family: 'Average Sans', sans-serif;}
-    </style>
-  </head>
+<body lang=PT-BR style='tab-interval:.5in'>
 
-  <body>
-    <div id="all">
-      <div id="back">
-	
-	<div id="header">
-  <div style="margin-left:8px;background:white">
-    <img src="img/logo_small.png" alt="Copa 2014">
-  </div>
+<div class=WordSection1>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0 width=760
+ style='width:570.25pt;margin-left:2.75pt;border-collapse:collapse;border:none;
+ mso-border-alt:solid windowtext .5pt;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 3.5pt 0in 3.5pt;mso-border-insideh:.5pt solid windowtext;mso-border-insidev:
+ .5pt solid windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;height:15.0pt'>
+  <td width=127 nowrap rowspan=2 valign=bottom style='width:95.25pt;border:
+  solid windowtext 1.0pt;mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;
+  height:15.0pt'>
+  <p class=MsoNormal style='line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>País<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap rowspan=2 valign=bottom style='width:95.0pt;border:solid windowtext 1.0pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+  solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Probabilidade
+  de<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>ser campeão<o:p></o:p></span></b></p>
+  </td>
+  <td width=507 nowrap colspan=4 valign=bottom style='width:380.0pt;border:
+  solid windowtext 1.0pt;border-left:none;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>Probabilidade de atingir…<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-left-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>as oitavas<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>as quartas<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border:none;
+  border-bottom:solid windowtext 1.0pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-bottom-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>a semi-final<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-top-alt:solid windowtext .5pt;
+  mso-border-bottom-alt:solid windowtext .5pt;mso-border-right-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'><span style='mso-spacerun:yes'> </span>a<span
+  style='mso-spacerun:yes'>  </span>final<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Brasil<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>29%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>74%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>52%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>40%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Croácia<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>9%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>México<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>15%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>8%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Camarões<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Espanha<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>16%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>70%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>48%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>31%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Holanda<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>2%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>14%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>7%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Chile<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>2%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>14%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>7%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Austrália<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>2%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Colômbia<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>12%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>69%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>32%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>21%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Grécia<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Costa do
+  Marfim<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>16%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Japão<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>5%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:14;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Uruguai<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>5%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>63%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>26%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>12%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:15;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Costa Rica<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>15%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:16;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Inglaterra<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>16%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>5%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>2%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:17;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Itália<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:18;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Suiça<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>41%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:19;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Equador<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>18%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>10%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:20;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>França<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>2%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>19%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>10%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:21;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Honduras<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:22;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Argentina<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>12%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>65%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>24%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:23;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Bósnia<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>22%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>7%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:24;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Irã<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>26%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>12%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:25;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Nigéria<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>6%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>2%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:26;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Alemanha<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>9%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>68%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>46%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>18%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:27;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Portugal<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>22%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>9%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:28;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Gana<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>17%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>5%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:29;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Estados
+  Unidos<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>7%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>3%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:30;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Bélgica<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>3%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>98%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>52%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>21%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>8%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:31;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Argélia<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>45%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>11%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>1%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:32;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Rússia<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>1%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>44%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>19%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>11%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:33;mso-yfti-lastrow:yes;height:15.0pt'>
+  <td width=127 nowrap valign=bottom style='width:95.25pt;border:solid windowtext 1.0pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
+  padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  "Times New Roman";mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>Coréia do Sul<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><b style='mso-bidi-font-weight:normal'><span
+  style='mso-ascii-font-family:Calibri;mso-fareast-font-family:"Times New Roman";
+  mso-hansi-font-family:Calibri;mso-bidi-font-family:"Times New Roman";
+  color:black;mso-ansi-language:PT-BR;mso-fareast-language:PT-BR'>0%<o:p></o:p></span></b></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>13%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>4%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>2%<o:p></o:p></span></p>
+  </td>
+  <td width=127 nowrap valign=bottom style='width:95.0pt;border-top:none;
+  border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  mso-border-alt:solid windowtext .5pt;padding:0in 3.5pt 0in 3.5pt;height:15.0pt'>
+  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
+  text-align:center;line-height:normal'><span style='mso-ascii-font-family:
+  Calibri;mso-fareast-font-family:"Times New Roman";mso-hansi-font-family:Calibri;
+  mso-bidi-font-family:"Times New Roman";color:black;mso-ansi-language:PT-BR;
+  mso-fareast-language:PT-BR'>0%<o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
 </div>
 
+</body>
 
-	<div id="contentarea">
-	  <div id="breadcrumbs">
-          </div>
-	  
-	  <div id="wrapper2">
-
-	    <div id="main">
-	      <div id="system-message-container">
-	      </div>
-
-	      <div class="item-page" style="text-align: justify">
-
-  <h2> Chances das Selecoes </h2>
-
-  <h1>A ser publicado em breve</h1>
-
-
-</div>
-
-
-	    </div>
-	  </div>  
-
-	  <div class="wrap"></div>
-      </div>
-    </div>
-  </body>
-
-  <div id="footer-outer">
-    <div id="footer-inner">
-      <div id="bottom">
-	<div class="box box2"><a href=http://emap.fgv.br><img src="img/EMAP_h_s.jpg"  width="10" alt="EMAp/FGV"></div>
-      </div>
-    </div>
-    <div id="footer-sub">
-      <div id="footer">
-      </div>
-      <!-- end footer -->
-    </div>
-  </div>
-  
 </html>
