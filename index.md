@@ -15,6 +15,8 @@ Não há pretensão em adivinhar o que vai acontecer na Copa, no entanto é razo
 * [Ranking das seleções](pagerank_selecoes.html) (adaptaçao do Ranking da Google para as seleções)
 * [Previsões dos jogos da primeira fase da Copa](img/disputas/primeira_fase.htm)  (atualizado em 05/06)
 * [Previsões dos jogos das oitavas](img/disputas/oitavas.htm) (atualizado em 27/06)
-* [Chances em 05/06](probabilidades.htm)
+* [Previsões dos jogos das quartas](img/disputas/quartas.htm) (atualizado em 02/07)
+* [Chances em 05/06 - início da Copa](probabilidades.htm)
 * [Chances em 27/06 - início das oitavas](probabilidades_copa_2014_apos_1fase.htm)
+* [Chances em 02/07 - início das quartas](probabilidades_copa_2014_apos_oitavas.htm)
 
