@@ -17,7 +17,7 @@ Não há pretensão em adivinhar o que vai acontecer na Copa, no entanto é razo
 * [Previsões dos jogos da primeira fase da Copa](img/disputas/primeira_fase.htm)  (atualizado em 05/06)
 * [Previsões dos jogos das oitavas](img/disputas/oitavas.htm) (atualizado em 27/06)
 * [Previsões dos jogos das quartas](img/disputas/quartas.htm) (atualizado em 02/07)
-* [Previsões dos jogos das quartas](img/disputas/semifinais.htm) (atualizado em 05/07)
+* [Previsões dos jogos das semifinais](img/disputas/semifinais.htm) (atualizado em 05/07)
 
 ## Chances de cada Seleção
 * [Chances em 05/06 - início da Copa](probabilidades.htm)
